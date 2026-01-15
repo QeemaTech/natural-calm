@@ -1,4 +1,4 @@
-# Natural Calm Mobile App
+# Naturacalm Mobile App
 
 Cross-platform Flutter application that launches a branded splash animation and then renders the QDP web experience inside an embedded browser.
 

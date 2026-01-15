@@ -30,7 +30,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.qeema.qdp"
+        applicationId = "com.qeema.naturacalm"
         minSdk = flutter.minSdkVersion
         targetSdk = 35
         versionCode = flutter.versionCode
