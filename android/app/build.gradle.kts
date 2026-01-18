@@ -17,8 +17,7 @@ if (keystorePropertiesFile.exists()) {
 android {
     namespace = "com.example.media"
     compileSdk = 36
-    // Pin the Android NDK version to keep native plugins (e.g. flutter_inappwebview_android) in sync.
-    ndkVersion = "27.0.12077973"
+    ndkVersion = flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -30,7 +29,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.qeema.naturacalm"
+        applicationId = "com.qeema.naturalcalm"
         minSdk = flutter.minSdkVersion
         targetSdk = 35
         versionCode = flutter.versionCode

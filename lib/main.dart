@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:media/splash_screen.dart';
 import 'package:media/webview_screen.dart';
 
 void main() {
@@ -14,15 +15,19 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: SystemUiOverlayStyle(
-        statusBarColor: Colors.white,
+         statusBarColor: Colors.white, 
       statusBarIconBrightness: Brightness.dark, 
       statusBarBrightness: Brightness.light, 
       ),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         home: const WebViewScreen(),
+        title: 'Natural Calm',
       ),
     );
   }
 }
+
+
+
 
